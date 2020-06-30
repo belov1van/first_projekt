@@ -1,0 +1,65 @@
+body {
+  display:flex;
+align-items:center;
+justify-content: center;
+overflow: hidden;
+}
+.box{
+  position: relative;
+  z-index:2;
+  width:300px;
+  background: white;
+  border-radius: 4px;
+  box-shadow:0 0 20px 0 rgba(0,0,0,0.5);
+}
+.box-images-cover{
+  max-width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+.box-content{
+  padding:10px;
+  text-align: center;
+}
+.box-content h1 {
+margin-top: 0;
+
+}
+.div-images{
+  width: 90px;
+height: 100px;
+border-radius: 100px;
+margin-left:95px;
+margin-top:-50px;
+border:3px solid white;
+}
+.div2{
+  width: 40px;
+  height: 40px;
+  margin-right:20px;
+
+}
+.div2 img{
+  width: 40px;
+  height: 40px;
+}
+.div2:hover{
+  box-shadow:0 0 10px black;
+      display: inline-block;
+}
+.div3{
+  width: 40px;
+  height: 40px;
+}
+.div3:hover{
+  box-shadow:0 0 10px black;}
+.bg {
+  background:url("../IMAGES/valorant-ot-riot-games-gejmplej-personazhi-obzor_1587235342578973102.jpg") no-repeat center;
+background-size: cover;
+position: absolute;
+z-index: 1;
+left:-40px;
+right:-40px;
+top:-40px;
+bottom:-40px;
+filter:blur(20px);
+}
